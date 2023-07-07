@@ -1,0 +1,178 @@
+/*header of the web page */
+header {
+    background-color: #008080;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #005555;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: monospace;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(227, 246, 250);
+   
+  }
+  
+  .container {
+    border: 1px solid black;
+    padding: 40px;
+    float: left;
+    height: 100%;
+  }
+  
+  #calculator {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #activityLevel {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+  button {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* table design for css */
+  .table-container {
+    text-align: center;
+  }
+  
+  p{
+    text-align: center;
+  }
+  .bmi {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .bmi th,
+  .bmi td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid  #ccc;
+  }
+  
+  .bmi th {
+    background-color: #f2f2f2;
+  }
+  
+  .bmi tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bmi tbody tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .frame {
+    border: 2px solid #008080;
+    padding: 10px;
+  }
+  
+  img{
+    text-align: center;
+  }
+  
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  
+
+  
